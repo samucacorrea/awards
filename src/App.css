@@ -1,0 +1,281 @@
+.main-container {
+    background: url('./images/bg_mobile.png') no-repeat;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.centered {
+    width: 90%;
+    display: grid;
+    margin-left: 5%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.main-container header h1 {
+    background: rgb(162, 162, 162);
+    background: -moz-linear-gradient(163deg, rgba(162, 162, 162, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-linear-gradient(163deg, rgba(162, 162, 162, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(163deg, rgba(162, 162, 162, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a2a2a2", endColorstr="#ffffff", GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.main-container header img {
+    margin-top: 34.9%;
+}
+
+.content {
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 82px;
+}
+
+.btn-votacao-init {
+    background: rgb(164, 107, 11);
+    background: -moz-linear-gradient(40deg, rgba(164, 107, 11, 1) 0%, rgba(247, 227, 126, 1) 40%, rgba(159, 133, 52, 1) 100%);
+    background: -webkit-linear-gradient(40deg, rgba(164, 107, 11, 1) 0%, rgba(247, 227, 126, 1) 40%, rgba(159, 133, 52, 1) 100%);
+    background: linear-gradient(40deg, rgba(164, 107, 11, 1) 0%, rgba(247, 227, 126, 1) 40%, rgba(159, 133, 52, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a46b0b", endColorstr="#9f8534", GradientType=1);
+    color: #000;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Maven Pro', sans-serif;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+
+.move_header {
+    width: 90vw;
+    margin-left: 2225px;
+}
+
+.btn-votacao-init:hover {
+    background: rgb(164, 107, 11);
+    background: -moz-linear-gradient(27deg, rgba(164, 107, 11, 1) 0%, rgba(247, 227, 126, 1) 40%, rgba(159, 133, 52, 1) 100%);
+    background: -webkit-linear-gradient(27deg, rgba(164, 107, 11, 1) 0%, rgba(247, 227, 126, 1) 40%, rgba(159, 133, 52, 1) 100%);
+    background: linear-gradient(27deg, rgba(164, 107, 11, 1) 0%, rgba(247, 227, 126, 1) 40%, rgba(159, 133, 52, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a46b0b", endColorstr="#9f8534", GradientType=1);
+}
+
+.sai-botao {
+    opacity: 0;
+}
+
+.main-container-card {
+    width: 132%;
+    display: grid;
+    justify-content: center;
+    align-items: first baseline;
+    grid-template-columns: repeat(12, 400px);
+    transition: all 0.8s ease-in-out;
+    margin-left: 30.3%;
+    opacity: 0;
+    display: none;
+}
+
+.container-card-carrossel-h2 {
+    position: relative;
+    top: -100px;
+    left: -25px;
+    display: inline;
+    text-transform: uppercase;
+}
+.margin_left_0{
+     margin-left: 30.25% !important; 
+}
+
+.margin_left_1 {
+    margin-left: 22% !important;
+}
+
+.margin_left_2 {
+    margin-left: 13.7% !important;
+}
+
+.margin_left_3 {
+    margin-left: 5.3% !important;
+}
+
+.margin_left_4 {
+    margin-left: -3% !important;
+}
+
+.margin_left_5 {
+    margin-left: -11.3% !important;
+}
+
+.margin_left_6 {
+    margin-left: -19.6% !important;
+}
+
+.margin_left_7 {
+    margin-left: -28% !important;
+}
+
+.margin_left_8 {
+    margin-left: -36.3% !important;
+}
+
+.margin_left_9 {
+    margin-left: -44.7% !important;
+}
+
+.margin_left_10 {
+    margin-left: -53% !important;
+}
+
+.margin_left_11 {
+    margin-left: -61.3% !important;
+}
+
+.margin_left_12 {
+    margin-left: -61.3% !important;
+}
+
+.carrossel_show {
+    margin-top: -340px;
+    opacity: 1;
+}
+
+button {
+    cursor: pointer;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .main-container {
+        background: url('./images/bg_768x1027.png') no-repeat;
+    }
+
+    .container-card-carrossel-h2 {
+        left: -96px;
+
+    }
+
+    .main-container-card {
+        grid-template-columns: repeat(12, 650px);
+        margin-left: 31.2%;
+    }
+
+    .move_header {
+        margin-left: 3555px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .main-container {
+        background: url('./images/bg_992x558.png') no-repeat;
+        margin-bottom: 200px;
+        background-size: cover;
+    }
+
+    .move_header {
+        margin-left: 5069px;
+        margin-top: -1%;
+    }
+
+    .content {
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .centered {
+        width: 90vw;
+    }
+
+    .main-container header img {
+        margin-top: 0%;
+    }
+
+    .main-container-card {
+        grid-template-columns: repeat(12, 920px);
+        margin-left: 30.25%;
+    }
+
+    .container-card-carrossel-h2 {
+        top: -45px;
+    }
+
+    .centered {
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-container {
+        background: url('./images/bg_992x558.png') no-repeat;
+        background-size: cover;
+        margin-bottom: 200px;
+    }
+
+    .main-container-card {
+        grid-template-columns: repeat(12, 1200px);
+        margin-left: 30.25%;
+    }
+
+    .move_header {
+        margin-left: 45.95%;
+        margin-top: 0.5%;
+    }
+    .container-card-carrossel-h2 {
+        left: -34px;
+    }
+}
+@media (min-width: 1900px) {
+    .main-container-card{
+        grid-template-columns: repeat(12, 1235px);
+    }
+}
+@media (min-width: 1900px) {
+    .main-container {
+        background: url('./images/bg_992x558.png') no-repeat;
+        background-size: cover;
+    }
+
+    .main-container-card {
+        grid-template-columns: repeat(12, 1800px);
+        margin-left: 30.25%;
+    }
+
+    .move_header {
+        margin-left: 45.98%;
+    }
+
+}
+
+@media (min-width: 2200px) {
+    .main-container-card {
+        grid-template-columns: repeat(12, 2200px);
+        margin-left: 30.25%;
+    }
+
+    .move_header {
+        margin-left: 45.6%;
+    }
+
+    .container-card-carrossel-h2 {
+        left: -126px;
+    }
+}

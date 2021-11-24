@@ -1,0 +1,193 @@
+.card{
+    width: 350px;
+    border-radius:4px;
+    margin-bottom: 20px;
+    height: 570px;
+    
+}
+/*
+.card img{
+    position: relative;
+    top: -99% !important;
+    left: 100px !important;
+}
+*/
+/*.img_atleta{
+    position: relative;
+    top: -99%;
+    left: 100px;
+}*/
+
+.card-container{
+    display: grid;
+}
+.card-name{
+    background: #000;
+    color: #FFF;
+    align-items: baseline;
+    text-align: left;
+    padding: 30px 15px;
+    border-radius: 4px 4px;
+    height: 80px;
+}
+.card-name{
+}
+.card-name h2{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.card-name span{
+    background: rgb(164,107,11);
+    background: -moz-linear-gradient(40deg, rgba(164,107,11,1) 0%, rgba(247,227,126,1) 40%, rgba(159,133,52,1) 100%);
+    background: -webkit-linear-gradient(40deg, rgba(164,107,11,1) 0%, rgba(247,227,126,1) 40%, rgba(159,133,52,1) 100%);
+    background: linear-gradient(40deg, rgba(164,107,11,1) 0%, rgba(247,227,126,1) 40%, rgba(159,133,52,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a46b0b",endColorstr="#9f8534",GradientType=1);
+    color: #000;
+    padding: 4px 10px 6px 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-family: 'Maven Pro', sans-serif;
+    width: 103px;
+}
+.card-detail{
+    background: #3A311F;
+    display: grid;
+    padding: 30px 15px;
+    border-radius: 0px 0px 4px 4px;
+    height: 81px;
+}
+.card-detail div{
+    text-align: left;
+}
+.card-detail img{
+    left: 58%;
+}
+.btn-assistir{
+    background: #3A311F;
+    border: 2px solid;
+    border-color: rgb(164,107,11);
+    border-color: -moz-linear-gradient(40deg, rgba(164,107,11,1) 0%, rgba(247,227,126,1) 40%, rgba(159,133,52,1) 100%);
+    border-color: -webkit-linear-gradient(40deg, rgba(164,107,11,1) 0%, rgba(247,227,126,1) 40%, rgba(159,133,52,1) 100%);
+    border-color: linear-gradient(40deg, rgba(164,107,11,1) 0%, rgba(247,227,126,1) 40%, rgba(159,133,52,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a46b0b",endColorstr="#9f8534",GradientType=1);
+    color: rgba(164,107,11,1);
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Maven Pro', sans-serif;
+}
+.btn-votar{
+    font-family: 'Maven Pro', sans-serif;
+    border: none;
+    background: rgba(164,107,11,1);
+    color: #000;
+    padding: 4px 10px 6px 10px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 37px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+    .card{
+        width: 450px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .id_22{
+        grid-area: a;
+    }
+    .id_23{
+        grid-area: b;
+    }
+    .id_24{
+        grid-area: c;
+    }
+    .id_25{
+        grid-area: d;
+    }
+    .id_26{
+        grid-area: e;
+    }
+    .id_30{
+        grid-area: a;
+    }
+    .id_31{
+        grid-area: b;
+    }
+    .id_32{
+        grid-area: c;
+    }
+    .id_33{
+        grid-area: d;
+    }
+    .id_34{
+        grid-area: a;
+    }
+    .id_35{
+        grid-area: b;
+    }
+    .id_36{
+        grid-area: c;
+    }
+    .id_37{
+        grid-area: d;
+    }
+    .id_38{
+        grid-area: e;
+    }
+    .id_39{
+        grid-area: a;
+    }
+    .id_43{
+        grid-area: b;
+    }
+    .id_41{
+        grid-area: c;
+    }
+    .id_42{
+        grid-area: d;
+    }
+    .id_40{
+        grid-area: e;
+    }
+    .desktop-cards {
+        width: 100%;
+        display: grid;
+        /*grid-template-columns: 30% 30% 30%;*/
+        margin-top: 32%;
+        grid-template-areas: 
+        'a b c'
+        'd e f';
+        height: 990px;
+    }
+    .card{
+        box-shadow: none;
+        width: 250px;
+        margin-top: -300px;
+    }
+    .card-name{
+        max-height: 80px;
+        min-height: 85px;
+    }
+    .card-detail{
+        height: 70px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .card{
+        box-shadow: none;
+        width: 380px;
+        margin-top: -300px;
+    }
+    .desktop-cards{
+        margin-top: 18%;
+        height: 1240px;
+    }
+}
+
